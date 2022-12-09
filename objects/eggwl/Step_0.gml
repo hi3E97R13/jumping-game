@@ -41,7 +41,7 @@ y = y + vsp;
 if (!place_meeting(x,y+1,wall))
 {
 	sprite_index = eggjm;
-	image_speed = 0;
+	image_speed = 1;
 	if (vsp > 0) image_index = 3; else image_index = 1;
 	
 }
@@ -50,8 +50,11 @@ else
 	image_speed = 1
 	 if (hsp = 0)
 	 {
-		sprite_index = eggwl
+		sprite_index = eggbertspi
 	 }
-
+	 else
+{
+sprite_index = eggbertspi
 }
-if (hsp !=0	) image_xscale = sign(hsp);
+}
+if (hsp != 0) image_xscale = sign(hsp);

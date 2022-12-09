@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "eggbertspi",
+    "path": "sprites/eggbertspi/eggbertspi.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
