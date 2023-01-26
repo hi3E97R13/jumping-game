@@ -48,9 +48,10 @@ if (!place_meeting(x,y+1,wall))
 else
 {
 	image_speed = 1
-	 if (hsp = 0)
+	 if (hsp == 0)
 	 {
-		sprite_index = eggbertspi
+		sprite_index = eggjm
+		image_index = 0
 	 }
 	 else
 {
